@@ -1,0 +1,44 @@
+public int find (int i)
+{
+ while (i!=id[i])
+ {
+  i=id[i];
+ }
+  public boolean connected (int p,int q)
+ {
+  return find(p)==find(q)
+ }
+public find union (int p,int q)
+ {
+  int i=find(p)
+  int j=find(q)
+  if(i==j)return;
+  if(sz[i]<sz[j])
+ }
+else
+{
+id[j]=i;sz[i]+=sz[j];
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
